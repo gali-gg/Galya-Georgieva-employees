@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.error {
+  color: red;
+}
+
+.mainContainer {
+  width: 50%;
+  margin: auto;
+}
+
+.uploadFileWrapper {
+  width: 100%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  width: 100px;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+  color: white;
+  padding: 5px;
+  font-size: medium;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: royalblue;
+  cursor: pointer;
+}
+
+.info {
+  margin-bottom: 10px;
+}
+
+.headerInfo {
+  font-size: small;
+}
+
+.table th, .table td {
+  padding: 5px;
+  border-bottom: 1px solid rgb(135, 165, 221);
+  text-align: left;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+.rowStyle {
+  background-color: rgba(100,149,237, 0.2);
+}
